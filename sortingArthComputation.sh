@@ -15,3 +15,11 @@ calcultion_result[1]=A
 calcultion_result[2]=B
 calcultion_result[3]=c
 calcultion_result[4]=D
+
+
+
+declare -a array_calcultion_result
+for((i=1 ; i<5 ; i++))
+do
+	array_calcultion_result[$i]=${calcultion_result[$i]}
+done
