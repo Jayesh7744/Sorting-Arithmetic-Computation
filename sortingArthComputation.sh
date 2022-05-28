@@ -9,3 +9,9 @@ A=$(( $a + $b * $c ))
 B=$(( $a * $b + $c ))
 C=$(( $a + $b / $c ))
 D=$(( $a % $b + $c ))
+
+declare -A calcultion_result
+calcultion_result[1]=A
+calcultion_result[2]=B
+calcultion_result[3]=c
+calcultion_result[4]=D
